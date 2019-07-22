@@ -10,7 +10,7 @@
     "boot": "on"
    },
   "pkgs": [
-	  "ftp/curl"
+    "ftp/curl"
   ],
   "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
   "fingerprints": {
@@ -20,6 +20,6 @@
                   "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
               }
             ]
-    },
-    "official": false
+  },
+  "official": false
 }
