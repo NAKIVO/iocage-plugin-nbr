@@ -10,9 +10,10 @@
     "boot": "on"
    },
   "pkgs": [
-    "ftp/curl"
+    "ftp/curl",
+    "java/openjdk8-jre"
   ],
-  "packagesite": "http://pkg.FreeBSD.org/FreeBSD:11:amd64/latest",
+  "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64/quarterly",
   "fingerprints": {
           "plugin-default": [
                   {
