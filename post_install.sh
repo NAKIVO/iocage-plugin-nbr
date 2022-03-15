@@ -2,7 +2,7 @@
 
 PRODUCT='NAKIVO Backup & Replication'
 URL="http://192.168.1.171/fn/n63481.sh"
-SHA256="cc7d4cc9f61221e7bc44dba24ca292f2dddf0bc07b86ce6a3012ababffc52b84"
+SHA256="d34f1661f4ce9b9e8438ef7cd3e7ec4a140efd7583895d99562325aa0921ba8f"
 
 PRODUCT_ROOT="/usr/local/nakivo"
 INSTALL="inst.sh"
