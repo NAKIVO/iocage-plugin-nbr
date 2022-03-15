@@ -1,7 +1,7 @@
 {
     "name": "nbr",
     "release": "12.2-RELEASE",
-    "artifact": "https://github.com/NAKIVO/iocage-plugin-nbr.git",
+    "artifact": "https://github.com/phucse/iocage-plugin-nbr/.git",
     "properties": {
         "allow_raw_sockets": "1",
         "mount_devfs": "1",
@@ -13,7 +13,7 @@
         "ftp/curl",
         "java/openjdk8-jre"
     ],
-    "packagesite": "http://pkg.freebsd.org/${ABI}/quarterly",
+    "packagesite": "http://pkg.freebsd.org/FreeBSD:11:amd64//quarterly",
     "fingerprints": {
         "plugin-default": [
                 {
