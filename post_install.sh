@@ -7,7 +7,7 @@ SHA256="3def43b25e67b3340c12e8f74f5ef44f559cf9235c3edf50c1405b5fb92414a9"
 PRODUCT_ROOT="/usr/local/nakivo"
 INSTALL="inst.sh"
 
-curl --fail --tlsv1.2 -o $INSTALL $URL
+curl --fail --tlsv1.2 -L -o $INSTALL $URL
 if [ $? -ne 0 -o ! -e $INSTALL ]; then
     echo "ERROR: Failed to get $PRODUCT installer"
     rm $INSTALL >/dev/null 2>&1
