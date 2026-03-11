@@ -11,7 +11,7 @@
     },
     "pkgs": [
         "ftp/curl",
-        "java/openjdk8-jre"
+        "java/openjdk25-jre-headless"
     ],
     "packagesite": "http://pkg.freebsd.org/${ABI}/quarterly",
     "fingerprints": {
