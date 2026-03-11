@@ -10,8 +10,7 @@
         "boot": "on"
     },
     "pkgs": [
-        "ftp/curl",
-        "java/openjdk25-jre-headless"
+        "ftp/curl"
     ],
     "packagesite": "http://pkg.freebsd.org/${ABI}/quarterly",
     "fingerprints": {
